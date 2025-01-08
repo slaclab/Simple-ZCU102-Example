@@ -96,9 +96,11 @@ sudo umount boot
 
 4) Insert the SD memory card
 
-5) Power up the ZCU102 board
+5) Confirm the Mode SW6 [4:1] = 1110 (Mode Pins [3:0]). Note: Switch OFF = 1 = High; ON = 0 = Low.
 
-6) Confirm that you can ping the boot after it boots up
+6) Power up the ZCU102 board
+
+7) Confirm that you can ping the boot after it boots up
 
 <!--- ######################################################## -->
 
