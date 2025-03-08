@@ -18,7 +18,7 @@ import pyrogue.utilities.prbs
 import axi_soc_ultra_plus_core as socCore
 import simple_zcu102_example   as socDev
 
-rogue.Version.minVersion('6.4.0')
+rogue.Version.minVersion('6.5.0')
 
 class Root(pr.Root):
     def __init__(self,
