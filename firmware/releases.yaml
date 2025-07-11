@@ -14,7 +14,7 @@ Targets:
   SimpleZcu102Example:
     ImageDir: targets/SimpleZcu102Example/images
     Extensions:
-      - petalinux.tar.gz
+      - linux.tar.gz
 
 Releases:
   all:
@@ -22,4 +22,4 @@ Releases:
     Targets:
       - SimpleZcu102Example
     Types:
-      - FW_Only
+      - Yocto
