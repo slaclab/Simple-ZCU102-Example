@@ -55,3 +55,4 @@ slprj*
 *.pdi
 *.bif
 *.elf
+.venv-docs/
