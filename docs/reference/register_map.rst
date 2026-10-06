@@ -29,12 +29,12 @@ It uses ``genAxiLiteConfig`` to generate a two-master configuration
      - Slave
    * - ``PRBS_TX_C``
      - ``0``
-     - ``SsiPrbsTx`` — AXI-Lite control registers for the PRBS transmitter
+     - ``SsiPrbsTx``: AXI-Lite control registers for the PRBS transmitter
    * - ``PRBS_RX_C``
      - ``1``
-     - ``SsiPrbsRx`` — AXI-Lite control registers for the PRBS receiver
+     - ``SsiPrbsRx``: AXI-Lite control registers for the PRBS receiver
 
-The crossbar decoding uses 20-bit address space per master (``ADDR_BITS=20``,
+The crossbar decoding uses a 20-bit address space per master (``ADDR_BITS=20``,
 ``DECODE_BITS=16``), yielding a 64 KB window per index.
 
 This is a PRBS loopback test design; it does not include a ring-buffer

@@ -60,14 +60,14 @@ Instantiated blocks
    * - ``U_XVC`` (``surf.DmaXvcWrapper``)
      - XVC (Xilinx Virtual Cable) handler on DMA lane 1
 
-Clock domain
-------------
+Clock domains
+-------------
 
 This design operates with two clock domains:
 
-- ``axilClk`` (100 MHz) — AXI-Lite register access; sourced from
+- ``axilClk`` (100 MHz): AXI-Lite register access; sourced from
   ``AxiSocUltraPlusCore``.
-- ``dmaClk`` (250 MHz) — DMA and Application logic; sourced from
+- ``dmaClk`` (250 MHz): DMA and Application logic; sourced from
   ``AxiSocUltraPlusCore``.
 
 The ``Application`` entity crosses from ``axilClk`` to ``dmaClk`` using
